@@ -12,8 +12,8 @@ new g_sModelIndexExplode;
 #define PLUGIN "Electrical Mace"
 #define VERSION "1.0"
 #define AUTHOR "Glaster"                                                                                                                                             
-                                                                  
-                                                                      
+
+  
 // Weapon settings                            
 #define WEAPON_NAME             "weapon_mace"
 #define WEAPON_SLOT            1
