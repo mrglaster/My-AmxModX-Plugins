@@ -83,7 +83,7 @@ public plugin_precache()
     PRECACHE_MODEL(MODEL_VIEW);
     PRECACHE_MODEL(MODEL_WORLD);
     PRECACHE_MODEL(MODEL_PLAYER);
-     g_sModelIndexExplode=PRECACHE_MODEL(MODEL_ELECTROBEAM);
+    g_sModelIndexExplode=PRECACHE_MODEL(MODEL_ELECTROBEAM);
     
     PRECACHE_SOUND(SOUND_MISS_1);                                                                                                                                                       
     PRECACHE_SOUND(SOUND_MISS_2);
