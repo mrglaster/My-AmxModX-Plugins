@@ -1,0 +1,9 @@
+10
+weapon_s		640 weapon_xs	0	0	170	47
+weapon 			640 weapon_xs	0	50	170 47
+ammo			640 weapon_xs	0	100	25	25
+crosshair		640 crosshairs_new	47	47	24	24
+weapon_s		320 weapon_xs	0	0	170	47
+weapon 			320 weapon_xs	0	50	170 47
+ammo			320 weapon_xs	0	100	25	25
+crosshair		320 crosshairs_new	47	47	24	24

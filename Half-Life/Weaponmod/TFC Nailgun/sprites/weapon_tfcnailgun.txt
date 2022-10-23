@@ -1,0 +1,12 @@
+10
+weapon			640 weapon_tfcnailgun	0	92	168	40
+weapon_s		640 weapon_tfcnailgun	0	92	168	40
+ammo			640 640hud7	0	73	18	18
+crosshair		640 crosshairs	24	0	24	24
+autoaim			640 crosshairs	0	72	24	24
+weapon			320 weapon_tfcnailgun	0	92	168	40
+weapon_s		320 weapon_tfcnailgun	0	92	168	40
+ammo			320 640hud7	0	0	18	18
+crosshair		320 crosshairs	24	0	24	24
+autoaim			320 crosshairs	0	72	24	24
+

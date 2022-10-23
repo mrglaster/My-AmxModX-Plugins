@@ -1,0 +1,5 @@
+4
+weapon			640 weapon_usas	0	0	170	45
+weapon_s		640 weapon_usas	0	45	170	45
+ammo			640 640hud7	72	72	24	24
+crosshair		640 crosshairs	48	48	24	24
