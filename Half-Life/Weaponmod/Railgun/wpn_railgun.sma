@@ -8,7 +8,7 @@
                           
 #define PLUGIN "[WPNMOD] Railgun"
 #define VERSION "1.3"                                    
-#define AUTHOR "Glaster, KORD_12.7. HUD by Rat Poison"                                                  
+#define AUTHOR "Glaster"                                                  
 
                           
 //задаем параметры оружия                   
