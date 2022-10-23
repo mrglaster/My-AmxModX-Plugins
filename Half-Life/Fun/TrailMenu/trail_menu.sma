@@ -1,6 +1,10 @@
 #include <amxmodx>
 #include <fakemeta>
 
+#define PLUGIN_NAME "Trail Menu"
+#define PLUGIN_VERSION "1.3"
+#define PLUGIN_AUTHOR "Glaster"
+
 #define TIME_POSITION_CHECK 5.0
 #define TIME_POSITION_TASK 3.0
 #define INDEX_POSITION_TASK 129910
@@ -67,7 +71,7 @@ public plugin_precache() {
 }
 
 public plugin_init() {
-    register_plugin("Trail", "1.0", "Glaster");
+    register_plugin(PLUGIN_NAME, PLUGIN_VERSION, PLUGIN_AUTHOR);
     
     register_menucmd(register_menuid("Show_TrailMenu"), (1<<0|1<<1|1<<9), "Handle_TrailMenu");
     
