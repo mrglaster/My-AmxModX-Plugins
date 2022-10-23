@@ -6,7 +6,8 @@ new g_SpriteIndexExplode1;
             
 #define PLUGIN "[WPN] AR2"                                            
 #define VERSION "1.3.0"                                              
-#define AUTHOR "Glaster"                                    
+#define AUTHOR "Glaster"       
+
 #define WEAPON_NAME "weapon_ar2"                              
 #define WEAPON_SLOT    3
 #define WEAPON_POSITION    3
@@ -19,63 +20,71 @@ new g_SpriteIndexExplode1;
 #define WEAPON_FLAGS    0        
 #define WEAPON_WEIGHT    20
 #define WEAPON_DAMAGE    20.0  
+
 #define AR2G_DAMAGE            100.0       
 #define AR2G_BOUNCE_TIME        3.0       
 #define AR2G_BOUNCE_VELOCITY        900
-#define AR2G_FLY_VELOCITY        700     
+#define AR2G_FLY_VELOCITY        700   
+
 #define MODEL_WORLD    "models/w_ar2.mdl"  
 #define MODEL_VIEW    "models/v_ar2.mdl"      
 #define MODEL_PLAYER    "models/p_ar2.mdl" 
 #define MODEL_AMMO "models/w_ar2clip.mdl"
 #define MODEL_AR2G            "models/ar2_grenade.mdl"
+
 #define WEAPON_HUD_TXT    "sprites/weapon_ar2.txt"
 #define WEAPON_CHOISEN    "sprites/ar2_choisen.spr"  
 #define WEAPON_NOCHOISEN "sprites/ar2_nochoisen.spr"
 #define MUZZLE_SPRITE "sprites/ar2_mf.spr"          
 #define SPRITE_GLOW            "sprites/energy_ball.spr" 
+
 #define SOUND_FIRE    "weapons/ar2_shoot.wav"
 #define SOUND_RELOAD    "weapons/ar2_reload.wav"
 #define SOUND_DEPLOY "weapons/ar2_deploy.wav"
 #define SOUND_GRENADE "weapons/ar2_grenade.wav"    
 #define SOUND_GRENADE_EXP "weapons/ar2gr.wav"
+
 #define ANIM_EXTENSION    "crossbow"    
+
 #define SET_SIZE(%0,%1,%2) engfunc(EngFunc_SetSize,%0,%1,%2)
 #define SET_ORIGIN(%0,%1) engfunc(EngFunc_SetOrigin,%0,%1) 
 #define NO_RECOIL  Float:{ 0.01, 0.01, 0.01 }              
 #define Offset_iGlow Offset_iuser1
 #define Offset_iBounce Offset_iuser2  
 #define SET_ORIGIN(%0,%1) engfunc(EngFunc_SetOrigin,%0,%1) 
+
 #define SPRITE_EXP "sprites/ar2_explo.spr"           
 #define EMPTY_SOUND "weapons/ar2_empty1.wav"  
 #define AMMOBOX_CLASSNAME "ammo_ar2" 
+
 new sgb[1];    
 public plugin_init() {   
 
-register_plugin(PLUGIN,VERSION,AUTHOR);    
-new iAR2Ammo= wpnmod_register_ammobox(AMMOBOX_CLASSNAME);                 
-new ar2 = wpnmod_register_weapon
-    (
-        WEAPON_NAME,
-        WEAPON_SLOT,
-        WEAPON_POSITION,
-        WEAPON_PRIMARY_AMMO,
-        WEAPON_PRIMARY_AMMO_MAX,
-        WEAPON_SECONDARY_AMMO,
-        WEAPON_SECONDARY_AMMO_MAX,
-        WEAPON_MAX_CLIP,
-        WEAPON_FLAGS,                
-        WEAPON_WEIGHT
-    );  
+	register_plugin(PLUGIN,VERSION,AUTHOR);    
+	new iAR2Ammo= wpnmod_register_ammobox(AMMOBOX_CLASSNAME);                 
+	new ar2 = wpnmod_register_weapon
+    	(
+        	WEAPON_NAME,
+        	WEAPON_SLOT,
+        	WEAPON_POSITION,
+        	WEAPON_PRIMARY_AMMO,
+        	WEAPON_PRIMARY_AMMO_MAX,
+        	WEAPON_SECONDARY_AMMO,
+        	WEAPON_SECONDARY_AMMO_MAX,
+        	WEAPON_MAX_CLIP,
+        	WEAPON_FLAGS,                
+        	WEAPON_WEIGHT
+    	);  
     
-    wpnmod_register_weapon_forward(ar2, Fwd_Wpn_Spawn,         "AR2_Spawn" );
-    wpnmod_register_weapon_forward(ar2, Fwd_Wpn_Deploy,         "AR2_Deploy" );
-    wpnmod_register_weapon_forward(ar2, Fwd_Wpn_Idle,         "AR2_Idle" );
-    wpnmod_register_weapon_forward(ar2, Fwd_Wpn_PrimaryAttack,    "AR2_PrimaryAttack" );
-    wpnmod_register_weapon_forward(ar2, Fwd_Wpn_SecondaryAttack,    "AR2_SecondaryAttack" );
-    wpnmod_register_weapon_forward(ar2, Fwd_Wpn_Reload,         "AR2_Reload" );
-    wpnmod_register_weapon_forward(ar2, Fwd_Wpn_Holster,         "AR2_Holster" );
-    wpnmod_register_ammobox_forward(iAR2Ammo, Fwd_Ammo_Spawn, "AR2Ammo_Spawn");
-    wpnmod_register_ammobox_forward(iAR2Ammo, Fwd_Ammo_AddAmmo, "AR2Ammo_AddAmmo");
+    	wpnmod_register_weapon_forward(ar2, Fwd_Wpn_Spawn,         "AR2_Spawn" );
+    	wpnmod_register_weapon_forward(ar2, Fwd_Wpn_Deploy,         "AR2_Deploy" );
+    	wpnmod_register_weapon_forward(ar2, Fwd_Wpn_Idle,         "AR2_Idle" );
+    	wpnmod_register_weapon_forward(ar2, Fwd_Wpn_PrimaryAttack,    "AR2_PrimaryAttack" );
+    	wpnmod_register_weapon_forward(ar2, Fwd_Wpn_SecondaryAttack,    "AR2_SecondaryAttack" );
+    	wpnmod_register_weapon_forward(ar2, Fwd_Wpn_Reload,         "AR2_Reload" );
+    	wpnmod_register_weapon_forward(ar2, Fwd_Wpn_Holster,         "AR2_Holster" );
+    	wpnmod_register_ammobox_forward(iAR2Ammo, Fwd_Ammo_Spawn, "AR2Ammo_Spawn");
+    	wpnmod_register_ammobox_forward(iAR2Ammo, Fwd_Ammo_AddAmmo, "AR2Ammo_AddAmmo");
 
 }
 
