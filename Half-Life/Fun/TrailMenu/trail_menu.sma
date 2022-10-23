@@ -8,7 +8,8 @@
 #define MAX_SPRITES 32
 
 new g_iDataSprites[][][] = {
-{"sprites/trails_h/hook_aa.spr", "1"},
+    // Format: {Path_To_Sprite, id}
+    {"sprites/trails_h/hook_aa.spr", "1"},
     {"sprites/trails_h/hook_a.spr", "2"},
     {"sprites/trails_h/hook_ab.spr", "3"},
     {"sprites/trails_h/hook_ac.spr", "4"},
@@ -43,6 +44,7 @@ new g_iDataSprites[][][] = {
 };
 
 new g_iDataColors[][][] = {
+    //Format: {ColorName, R, G, B}
     {"Red", "255", "0", "0"},
     {"Green", "0", "255", "0"},
     {"Blue", "0", "0", "255"},
