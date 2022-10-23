@@ -1,0 +1,9 @@
+// Pulse Rifle
+
+12	// number of sprites
+weapon			640 ar2_nochoisen	0	45	170	45
+weapon_s		640 ar2_choisen	0	45	170	45
+ammo			640 ar2_ammo	192	230	22	22
+ammo2			640 ar2_ammo	217	230	22	22
+crosshair		640 crosshairs	0	48	24	24
+autoaim			640 crosshairs	48	72	24	24

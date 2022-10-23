@@ -1,0 +1,9 @@
+10
+weapon			640 wpn_mg42	0	0	161	44
+weapon_s		640 wpn_mg42	0	50	161	44
+ammo			640 wpn_mg42	0	89	25	25
+crosshair		640 crosshairs	24	0	24	24
+weapon			320 wpn_mg42	0	0	161	44
+weapon_s		320 wpn_mg42	0	50	161	44
+ammo			320 wpn_mg42	0	89	25	25
+crosshair		320 crosshairs	24	0	24	24
