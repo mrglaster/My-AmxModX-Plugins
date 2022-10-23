@@ -60,7 +60,7 @@ OUR CONTACTS
 VK GROUP: https://vk.com/hldmhegemonius
 SUPPORT: pristavkaegor03@gmail.com
 ```
-### Screenshot(s)
+### Screenshot
 
 ![alt text](https://github.com/mrglaster/MyLittleAMXPlugins/blob/main/Half-Life/Fun/HelpMOTD/screenshot.jpg?raw=true)
 
