@@ -682,6 +682,4 @@ message_begin(MSG_ONE,get_user_msgid("ScreenFade"),{0,0,0},player)
         set_task(5.0,"screenfadeoff",player)
         set_task(2.9,"screenfades",player)
     }
-}
-
-                                      
+}                       
