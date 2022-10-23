@@ -11,9 +11,11 @@ public plugin_init() {
 }  
 
 public wlist(id){
-  for (new i=1; i<31;i++){ 
-	  new name[32];
-	  get_weaponname(i, name, 31 );
-	  console_print(id,name,"",i);         
-	 }                                                                           
+
+  for (new i=1; i<31;i++)
+  { 
+	new name[32];
+	get_weaponname(i, name, 31 );
+	console_print(id,name,"",i);         
+  }                                                                           
 }                              
