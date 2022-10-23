@@ -1,13 +1,12 @@
 #include <amxmodx>
-
 #define PLUGIN "help MOTD"
 #define VERSION "1.5"
 #define AUTHOR "Glaster"
-public plugin_init()
-{                                     
-register_clcmd("say /help", "motd");
-register_plugin(PLUGIN, VERSION, AUTHOR);
-                         
+
+public plugin_init(){                                     
+  register_clcmd("say /help", "motd");
+  register_plugin(PLUGIN, VERSION, AUTHOR);
+                    
 }
 
 public client_putinserver(id)
@@ -23,11 +22,9 @@ public example(id)
     return 0;
 }
 
-
 public motd(id)
 {
     show_motd(id, "help.txt", "Help");
     return 0;
 }
-
-                                                         
+                                         
