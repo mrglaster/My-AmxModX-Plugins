@@ -2,7 +2,7 @@
 
 If there are on your server chat/console commands, which can be used by users, you must then you somehow need to convey information about them to the players. This can be done in different ways, for example, periodically displaying information about an arbitrary command in the chat. But this method is not very practical. 
 
-This plugin offers a solution to this problem: you just need to create a help.txt text file in your server's mod folder, such as for example  ```MyServer/cstrike/``` or ```MyServer/valve``` and fill it with information about the commands available on your server. 
+This simple plugin offers a solution to this problem: you just need to create a help.txt text file in your server's mod folder, such as for example  ```MyServer/cstrike/``` or ```MyServer/valve``` and fill it with information about the commands available on your server. 
 
 After that, the user will only need to enter the ```/help``` command into the chat and a MOTD window with information about the commands will open in front of him.
 
