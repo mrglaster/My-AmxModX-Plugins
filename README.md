@@ -1,4 +1,4 @@
-# MyLittleAMXPlugins
+# My little AMXMODX plugins
 My little amxmodx plugins. Some of them were developed special for my HL server, others just for fun. 
 
 ### What does "the little plugin" mean?
