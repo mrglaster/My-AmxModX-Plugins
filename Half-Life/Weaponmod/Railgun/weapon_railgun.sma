@@ -233,13 +233,12 @@ public Railshell_Spawn(const iItem)
 
 public Railshell_AddAmmo(const iItem, const iPlayer)
 {
-	new iResult =
-		(			ExecuteHamB(				Ham_GiveAmmo,
-				iPlayer,
-				WEAPON_MAX_CLIP,
-				WEAPON_PRIMARY_AMMO,
-				WEAPON_PRIMARY_AMMO_MAX
-		) != -1
+	new iResult = (ExecuteHamB(Ham_GiveAmmo,
+				   iPlayer,
+			 	   WEAPON_MAX_CLIP,
+				   WEAPON_PRIMARY_AMMO,
+				   WEAPON_PRIMARY_AMMO_MAX
+		      ) != -1
 	);
 
 	if (iResult)
