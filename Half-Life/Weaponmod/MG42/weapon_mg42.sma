@@ -314,7 +314,7 @@ public mg42Ammo_Spawn(const iItem)
 public mg42Ammo_AddAmmo(const iItem, const iPlayer)
 {
 	new iResult =
-		(			ExecuteHamB(				Ham_GiveAmmo,
+		(ExecuteHamB(	Ham_GiveAmmo,
 				iPlayer,
 				WEAPON_MAX_CLIP,
 				WEAPON_PRIMARY_AMMO,
