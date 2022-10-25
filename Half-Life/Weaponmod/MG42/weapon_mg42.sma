@@ -76,7 +76,7 @@ public plugin_init()
 	wpnmod_register_weapon_forward(mg42, Fwd_Wpn_Idle, "mg42_Idle");
 	wpnmod_register_weapon_forward(mg42, Fwd_Wpn_PrimaryAttack, "mg42_PrimaryAttack");
 	wpnmod_register_weapon_forward(mg42, Fwd_Wpn_SecondaryAttack, "mg42_SecondaryAttack");
-	wpnmod_register_weapon_forward(mg42, Fwd_Wpn_Reload, "mg42_Reload");\
+	wpnmod_register_weapon_forward(mg42, Fwd_Wpn_Reload, "mg42_Reload");
 	wpnmod_register_weapon_forward(mg42, Fwd_Wpn_Holster, "mg42_Holster");
 	wpnmod_register_ammobox_forward(iMG42Ammo, Fwd_Ammo_Spawn, "mg42Ammo_Spawn");
 	wpnmod_register_ammobox_forward(iMG42Ammo, Fwd_Ammo_AddAmmo, "mg42Ammo_AddAmmo");
