@@ -1,4 +1,4 @@
-## What is this plugin for? 
+### What is this plugin for? 
 
 This plugin adds to your Half-Life server the SG550 automatic sniper rifle from the Counter Strike game series. All properties of the original were  transferred.
 
