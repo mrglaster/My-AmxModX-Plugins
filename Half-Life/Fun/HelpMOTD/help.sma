@@ -15,10 +15,10 @@ public client_putinserver(id)
     return 0;
 }
 
-public example(id)
+public help_chat_info(id)
 {
     client_print(id, print_chat, "Type /help to get help ");
-    set_task(30.00, "example", id, "", 0, "", 0);
+    set_task(30.00, "help_chat_info", id, "", 0, "", 0);
     return 0;
 }
 
