@@ -10,6 +10,6 @@ This plugin shows player his position in the server players top, his amount of k
 
 ### In-game Example
 
-Screenshot was made on ```HEGEMONIUS HALF-LIFE SERVER```
+Screenshot with result of the ```/top15``` command was made on ```HEGEMONIUS HALF-LIFE SERVER```
 
 ![alt text](https://github.com/mrglaster/MyLittleAMXPlugins/blob/main/Half-Life/Fun/RankOnHUD/screenshots/screen_2.jpg?raw=true)
