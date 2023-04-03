@@ -4,7 +4,7 @@
 
 /**Information about the plugin*/                              
 #define PLUGIN "[HGS] Batman vs Ironman: Team Menu" 
-#define VERSION "1.0"                              
+#define VERSION "1.9"                              
 #define AUTHOR "Glaster"  
 
 /**Team Names Definition*/
