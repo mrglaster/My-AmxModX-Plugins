@@ -5,7 +5,7 @@
 #include <engine>
 
 /*Information about the plugin and it's author*/                
-#define PLUGIN "[.:HGS:.] Guns pusher"     
+#define PLUGIN "[.:HGS:.] Pushing Guns"     
 #define VERSION "1.9"                       
 #define AUTHOR "Glaster"                                                           
 
