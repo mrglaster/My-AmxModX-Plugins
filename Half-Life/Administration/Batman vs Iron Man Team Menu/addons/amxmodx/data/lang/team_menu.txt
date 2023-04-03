@@ -10,8 +10,8 @@ YOU_ARE_ALREADY_A_IRONMAN_TEAM_MEMBER = You are already a Ironman team member!
 SELECT_YOUR_CONFLICT_SIDE = Wählen Sie Ihre Konfliktseite 
 BATMAN = Batman 
 IRONMAN = Ironman 
-YOU_ARE_ALREADY_A_BATMAN_TEAM_MEMBER = Du bist bereits ein Mitglied des Batman_Teams! 
-YOU_ARE_ALREADY_A_IRONMAN_TEAM_MEMBER = Sie sind bereits Ironman_Teammitglied! 
+YOU_ARE_ALREADY_A_BATMAN_TEAM_MEMBER = Du bist bereits ein Mitglied des Batman Teams! 
+YOU_ARE_ALREADY_A_IRONMAN_TEAM_MEMBER = Sie sind bereits Ironman Teammitglied! 
  
 [sr]
 SELECT_YOUR_CONFLICT_SIDE = Изаберите своју страну сукоба 
