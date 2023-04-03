@@ -36,7 +36,8 @@ public onShotgunSecondary(weapon){
         pushPlayer(id, 300.0, 350.0);
     }                                       
 }                                                                    
-                                                                                              
+
+/**Player pushing function*/
 public pushPlayer(id, minForce, maxForce){
        new Float:velocity[3];                            
        entity_get_vector(id, EV_VEC_velocity, velocity);
