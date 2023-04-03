@@ -2,8 +2,8 @@
 SELECT_YOUR_CONFLICT_SIDE = Select Your Conflict Side
 BATMAN = Batman
 IRONMAN = Ironman
-YOU_ARE_ALREADY_A_BATMAN_TEAM_MEMBER = You are already a Batman_team member!
-YOU_ARE_ALREADY_A_IRONMAN_TEAM_MEMBER = You are already a Ironman_team member!
+YOU_ARE_ALREADY_A_BATMAN_TEAM_MEMBER = You are already a Batman team member!
+YOU_ARE_ALREADY_A_IRONMAN_TEAM_MEMBER = You are already a Ironman team member!
 
  
 [de]
@@ -38,15 +38,15 @@ YOU_ARE_ALREADY_A_IRONMAN_TEAM_MEMBER = Vous êtes déjà membre de l'équipe Ir
 SELECT_YOUR_CONFLICT_SIDE = Välj din konfliktsida 
 BATMAN = Läderlappen 
 IRONMAN = Iron Man 
-YOU_ARE_ALREADY_A_BATMAN_TEAM_MEMBER = Du är redan medlem i Batman_teamet! 
-YOU_ARE_ALREADY_A_IRONMAN_TEAM_MEMBER = Du är redan medlem i Ironman_teamet! 
+YOU_ARE_ALREADY_A_BATMAN_TEAM_MEMBER = Du är redan medlem i Batman teamet! 
+YOU_ARE_ALREADY_A_IRONMAN_TEAM_MEMBER = Du är redan medlem i Ironman teamet! 
  
 [da]
 SELECT_YOUR_CONFLICT_SIDE = Vælg din konfliktside 
 BATMAN = Batman 
 IRONMAN = Jernmand 
-YOU_ARE_ALREADY_A_BATMAN_TEAM_MEMBER = Du er allerede medlem af Batman_teamet! 
-YOU_ARE_ALREADY_A_IRONMAN_TEAM_MEMBER = Du er allerede medlem af Ironman_teamet! 
+YOU_ARE_ALREADY_A_BATMAN_TEAM_MEMBER = Du er allerede medlem af Batman teamet! 
+YOU_ARE_ALREADY_A_IRONMAN_TEAM_MEMBER = Du er allerede medlem af Ironman teamet! 
 
  
 [pl]
@@ -60,8 +60,8 @@ YOU_ARE_ALREADY_A_IRONMAN_TEAM_MEMBER = Jesteś już członkiem zespołu Ironman
 SELECT_YOUR_CONFLICT_SIDE = Selecteer uw conflictkant 
 BATMAN = Batman 
 IRONMAN = Ijzeren man 
-YOU_ARE_ALREADY_A_BATMAN_TEAM_MEMBER = Je bent al lid van het Batman_team! 
-YOU_ARE_ALREADY_A_IRONMAN_TEAM_MEMBER = Je bent al lid van het Ironman_team! 
+YOU_ARE_ALREADY_A_BATMAN_TEAM_MEMBER = Je bent al lid van het Batman team! 
+YOU_ARE_ALREADY_A_IRONMAN_TEAM_MEMBER = Je bent al lid van het Ironman team! 
  
 [es]
 SELECT_YOUR_CONFLICT_SIDE = Seleccione su lado del conflicto 
@@ -79,7 +79,7 @@ YOU_ARE_ALREADY_A_IRONMAN_TEAM_MEMBER = Você já é um membro da equipe Ironman
  
 [cz]
 SELECT_YOUR_CONFLICT_SIDE = Vyberte svou stranu konfliktu 
-BATMAN = Bat_man 
+BATMAN = Batman 
 IRONMAN = Železný muž 
 YOU_ARE_ALREADY_A_BATMAN_TEAM_MEMBER = Již jste členem týmu Batman! 
 YOU_ARE_ALREADY_A_IRONMAN_TEAM_MEMBER = Již jste členem Ironman týmu! 
@@ -88,8 +88,8 @@ YOU_ARE_ALREADY_A_IRONMAN_TEAM_MEMBER = Již jste členem Ironman týmu!
 SELECT_YOUR_CONFLICT_SIDE = Valitse konfliktipuolesi 
 BATMAN = Lepakkomies 
 IRONMAN = Rautamies 
-YOU_ARE_ALREADY_A_BATMAN_TEAM_MEMBER = Olet jo Batman_tiimin jäsen! 
-YOU_ARE_ALREADY_A_IRONMAN_TEAM_MEMBER = Olet jo Ironman_tiimin jäsen! 
+YOU_ARE_ALREADY_A_BATMAN_TEAM_MEMBER = Olet jo Batman tiimin jäsen! 
+YOU_ARE_ALREADY_A_IRONMAN_TEAM_MEMBER = Olet jo Ironman tiimin jäsen! 
  
 [bg]
 SELECT_YOUR_CONFLICT_SIDE = Изберете вашата страна на конфликта 
