@@ -1,0 +1,130 @@
+[en]
+SELECT_YOUR_CONFLICT_SIDE = Select Your Conflict Side
+BATMAN = Batman
+IRONMAN = Ironman
+ 
+[de]
+SELECT_YOUR_CONFLICT_SIDE = Wählen Sie Ihre Konfliktseite 
+BATMAN = Batman 
+IRONMAN = Ironman 
+ 
+[sr]
+SELECT_YOUR_CONFLICT_SIDE = Изаберите своју страну сукоба 
+BATMAN = Батман 
+IRONMAN = Челични човек 
+ 
+[tr]
+SELECT_YOUR_CONFLICT_SIDE = Çatışma Tarafınızı Seçin 
+BATMAN = yarasa Adam 
+IRONMAN = Demir Adam 
+ 
+[fr]
+SELECT_YOUR_CONFLICT_SIDE = Sélectionnez votre côté du conflit 
+BATMAN = Homme chauve-souris 
+IRONMAN = Homme de fer 
+ 
+[sv]
+SELECT_YOUR_CONFLICT_SIDE = Välj din konfliktsida 
+BATMAN = Läderlappen 
+IRONMAN = Iron Man 
+ 
+[da]
+SELECT_YOUR_CONFLICT_SIDE = Vælg din konfliktside 
+BATMAN = Batman 
+IRONMAN = Jernmand 
+ 
+[pl]
+SELECT_YOUR_CONFLICT_SIDE = Wybierz swoją stronę konfliktu 
+BATMAN = Ordynans 
+IRONMAN = Człowiek z żelaza 
+ 
+[nl]
+SELECT_YOUR_CONFLICT_SIDE = Selecteer uw conflictkant 
+BATMAN = Batman 
+IRONMAN = Ijzeren man 
+ 
+[es]
+SELECT_YOUR_CONFLICT_SIDE = Seleccione su lado del conflicto 
+BATMAN = hombre murciélago 
+IRONMAN = Hombre de Acero 
+ 
+[bp]
+SELECT_YOUR_CONFLICT_SIDE = Selecione seu lado do conflito 
+BATMAN = homem Morcego 
+IRONMAN = Homem de Ferro 
+ 
+[cz]
+SELECT_YOUR_CONFLICT_SIDE = Vyberte svou stranu konfliktu 
+BATMAN = Bat-man 
+IRONMAN = Železný muž 
+ 
+[fi]
+SELECT_YOUR_CONFLICT_SIDE = Valitse konfliktipuolesi 
+BATMAN = Lepakkomies 
+IRONMAN = Rautamies 
+ 
+[bg]
+SELECT_YOUR_CONFLICT_SIDE = Изберете вашата страна на конфликта 
+BATMAN = Батман 
+IRONMAN = Железният човек 
+ 
+[ro]
+SELECT_YOUR_CONFLICT_SIDE = Selectați partea dvs. de conflict 
+BATMAN = Batman 
+IRONMAN = Omul de fier 
+ 
+[hu]
+SELECT_YOUR_CONFLICT_SIDE = Válassza ki a konfliktus oldalát 
+BATMAN = Denevérember 
+IRONMAN = Vasember 
+ 
+[lt]
+SELECT_YOUR_CONFLICT_SIDE = Pasirinkite savo konflikto pusę 
+BATMAN = Betmenas 
+IRONMAN = Geležinis žmogus 
+ 
+[sk]
+SELECT_YOUR_CONFLICT_SIDE = Vyberte svoju stranu konfliktu 
+BATMAN = Batman 
+IRONMAN = Železný muž 
+ 
+[mk]
+SELECT_YOUR_CONFLICT_SIDE = Изберете ја вашата конфликтна страна 
+BATMAN = Бетмен 
+IRONMAN = Железен човек 
+ 
+[hr]
+SELECT_YOUR_CONFLICT_SIDE = Odaberite svoju stranu u sukobu 
+BATMAN = Batman 
+IRONMAN = Željezni čovjek 
+ 
+[bs]
+SELECT_YOUR_CONFLICT_SIDE = Odaberite svoju stranu u sukobu 
+BATMAN = Batman 
+IRONMAN = Čelični čovjek 
+ 
+[ru]
+SELECT_YOUR_CONFLICT_SIDE = Выберите сторону конфликта 
+BATMAN = Бэтмен 
+IRONMAN = Железный человек 
+ 
+[cn]
+SELECT_YOUR_CONFLICT_SIDE = 选择你的冲突方 
+BATMAN = 蝙蝠侠 
+IRONMAN = 钢铁侠 
+ 
+[al]
+SELECT_YOUR_CONFLICT_SIDE = Zgjidhni anën tuaj të konfliktit 
+BATMAN = Batman 
+IRONMAN = Njeriu i hekurt 
+ 
+[ua]
+SELECT_YOUR_CONFLICT_SIDE = Виберіть сторону конфлікту 
+BATMAN = Бетмен 
+IRONMAN = Залізна людина 
+ 
+[lv]
+SELECT_YOUR_CONFLICT_SIDE = Izvēlieties savu konflikta pusi 
+BATMAN = sikspārņacilvēks 
+IRONMAN = Dzelzs vīrs 
+ 
