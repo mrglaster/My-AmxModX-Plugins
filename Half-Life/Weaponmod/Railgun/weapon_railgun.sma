@@ -107,7 +107,6 @@ public plugin_init()
 	wpnmod_register_weapon_forward(iRailgun, Fwd_Wpn_Reload, "Railgun_Reload");
 	wpnmod_register_weapon_forward(iRailgun, Fwd_Wpn_Holster, "Railgun_Holster");
 	wpnmod_register_weapon_forward(iRailgun, Fwd_Wpn_PrimaryAttack, "Railgun_PrimaryAttack");
-
 	wpnmod_register_ammobox_forward(iRailshell, Fwd_Ammo_Spawn, "Railshell_Spawn");
 	wpnmod_register_ammobox_forward(iRailshell, Fwd_Ammo_AddAmmo, "Railshell_AddAmmo");
 }
@@ -212,11 +211,7 @@ public Railgun_PrimaryAttack(const iItem, const iPlayer, const iClip)
 
 public Railgun_Reload(const iItem, const iPlayer, const iClip, const iAmmo)
 {
-	if (iAmmo <= 0 || iClip >= WEAPON_MAX_CLIP)
-	{
-		return;
-	}
-
+	if (iAmmo <= 0 || iClip >= WEAPON_MAX_CLIP) return;
 	wpnmod_default_reload(iItem, WEAPON_MAX_CLIP, RAILGUN_FIDGET, 1.4);
 }
 
