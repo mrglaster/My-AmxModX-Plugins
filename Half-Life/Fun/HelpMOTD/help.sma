@@ -14,7 +14,7 @@ public plugin_init(){
 
 
 public client_putinserver(id){
-    set_task(180.00, "example", id, "", 0, "", 0);
+    set_task(180.00, "help_chat_info", id, "", 0, "", 0);
     return 0;
 }
 
