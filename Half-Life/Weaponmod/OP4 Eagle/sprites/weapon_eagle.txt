@@ -1,0 +1,21 @@
+20
+ammo	 320	320hud2	18	16	18	18
+crosshair	320	ofch1	0	0	24	24
+autoaim	320	crosshairs	24	72	24	24
+weapon	320	320hudof01	0	80	80	20
+weapon_s	320	320hudof01	0	100	80	20
+ammo	640	640hud7	24	72	24	24
+crosshair	640	ofch1	0	0	24	24
+autoaim	640	crosshairs	24	72	24	24
+weapon	640	640hudof01	0	90	170	45
+weapon_s	640	640hudof02	0	90	170	45
+ammo 1280 1280/weapon_357_ammo	0	0	48	48
+crosshair	1280	ofch1	0	0	24	24
+autoaim	1280	crosshairs	24	72	24	24
+weapon	1280	1280/640hudof01	0	180	340	90
+weapon_s	1280	1280/640hudof02	0	180	340	90
+ammo 2560 2560/weapon_357_ammo	0	0	72	72
+crosshair	2560	ofch1	0	0	24	24
+autoaim	2560	crosshairs	24	72	24	24
+weapon	2560	2560/640hudof01	0	360	680	180
+weapon_s	2560	2560/640hudof02	0	360	680	180
